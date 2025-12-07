@@ -128,7 +128,8 @@ export default function LandingPage() {
               handle: "@sarahcoffelover",
               testimonial: "The best espresso in town! The baristas really know their craft and the atmosphere is so welcoming.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131930378-4mnm787o.jpg",
-              imageAlt: "Sarah Martinez"
+              imageAlt: "Sarah Martinez",
+              rating: 5
             },
             {
               id: "2",
@@ -136,7 +137,8 @@ export default function LandingPage() {
               handle: "@jamesmornings",
               testimonial: "I've tried coffee everywhere and this is consistently excellent. Their single origin beans are exceptional.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131931332-0jp32uyr.jpg",
-              imageAlt: "James Chen"
+              imageAlt: "James Chen",
+              rating: 5
             },
             {
               id: "3",
@@ -144,7 +146,8 @@ export default function LandingPage() {
               handle: "@emmaeats",
               testimonial: "Perfect spot for morning meetings. Great coffee, amazing pastries, and such a cozy vibe!",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131932274-lso7q1op.jpg",
-              imageAlt: "Emma Wilson"
+              imageAlt: "Emma Wilson",
+              rating: 5
             },
             {
               id: "4",
@@ -152,7 +155,8 @@ export default function LandingPage() {
               handle: "@michaelcoffee",
               testimonial: "Supporting local has never tasted so good. These guys really care about quality and sustainability.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131933559-zrl16g6k.jpg",
-              imageAlt: "Michael Rodriguez"
+              imageAlt: "Michael Rodriguez",
+              rating: 5
             }
           ]}
         />
