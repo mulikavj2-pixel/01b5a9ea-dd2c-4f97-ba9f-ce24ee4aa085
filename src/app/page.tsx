@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from "@/components/navbar/NavbarStyleApple/NavbarStyleApple";
@@ -125,7 +125,6 @@ export default function LandingPage() {
             {
               id: "1",
               name: "Sarah Martinez",
-              rating: 5,
               handle: "@sarahcoffelover",
               testimonial: "The best espresso in town! The baristas really know their craft and the atmosphere is so welcoming.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131930378-4mnm787o.jpg",
@@ -134,7 +133,6 @@ export default function LandingPage() {
             {
               id: "2",
               name: "James Chen",
-              rating: 5,
               handle: "@jamesmornings",
               testimonial: "I've tried coffee everywhere and this is consistently excellent. Their single origin beans are exceptional.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131931332-0jp32uyr.jpg",
@@ -143,7 +141,6 @@ export default function LandingPage() {
             {
               id: "3",
               name: "Emma Wilson",
-              rating: 5,
               handle: "@emmaeats",
               testimonial: "Perfect spot for morning meetings. Great coffee, amazing pastries, and such a cozy vibe!",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131932274-lso7q1op.jpg",
@@ -152,7 +149,6 @@ export default function LandingPage() {
             {
               id: "4",
               name: "Michael Rodriguez",
-              rating: 5,
               handle: "@michaelcoffee",
               testimonial: "Supporting local has never tasted so good. These guys really care about quality and sustainability.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131933559-zrl16g6k.jpg",
