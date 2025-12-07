@@ -20,11 +20,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Coffee Artisan - Premium Coffee Shop",
     description: "Experience exceptional coffee and pastries in our welcoming cafe",
+    url: "https://coffeeartisan.com",
     siteName: "Coffee Artisan",
     type: "website",
     images: [
       {
-        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131397515-rjrd98ss.jpg",
+        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131923809-th5gx0f0.jpg",
         alt: "Coffee Artisan cafe interior"
       }
     ]
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Coffee Artisan - Specialty Coffee",
     description: "Ethically sourced, fresh roasted coffee by expert baristas",
-    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131397515-rjrd98ss.jpg"]
+    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131923809-th5gx0f0.jpg"]
   }
 };
 

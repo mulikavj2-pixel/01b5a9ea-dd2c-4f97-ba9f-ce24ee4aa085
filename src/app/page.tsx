@@ -1,16 +1,16 @@
 "use client"
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import HeroLogoBillboard from '@/components/sections/hero/HeroLogoBillboard';
-import ProductCardSix from '@/components/sections/product/ProductCardSix';
-import SplitAbout from '@/components/sections/about/SplitAbout';
-import TestimonialCardFourteen from '@/components/sections/testimonial/TestimonialCardFourteen';
-import ContactSplit from '@/components/sections/contact/ContactSplit';
-import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import { Leaf, Flame, Award } from "lucide-react";
+import NavbarStyleApple from "@/components/navbar/NavbarStyleApple/NavbarStyleApple";
+import HeroLogoBillboard from "@/components/sections/hero/HeroLogoBillboard";
+import ProductCardSix from "@/components/sections/product/ProductCardSix";
+import SplitAbout from "@/components/sections/about/SplitAbout";
+import TestimonialCardFourteen from "@/components/sections/testimonial/TestimonialCardFourteen";
+import ContactSplit from "@/components/sections/contact/ContactSplit";
+import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
+import { Award, Flame, Leaf } from "lucide-react";
 
-export default function CoffeeArtisanPage() {
+export default function LandingPage() {
   return (
     <ThemeProvider
       defaultButtonVariant="hover-magnetic"
@@ -35,18 +35,18 @@ export default function CoffeeArtisanPage() {
           ]}
         />
       </div>
-      
+
       <div id="hero" data-section="hero">
         <HeroLogoBillboard
           logoText="Coffee Artisan"
           description="Handcrafted specialty coffee and pastries in a warm, welcoming atmosphere. Experience the perfect blend of quality, tradition, and innovation."
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131397515-rjrd98ss.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131923809-th5gx0f0.jpg"
           imageAlt="Coffee shop interior with cozy seating and warm lighting"
           frameStyle="card"
           ariaLabel="Hero section for Coffee Artisan coffee shop"
         />
       </div>
-      
+
       <div id="menu" data-section="menu">
         <ProductCardSix
           title="Our Signature Blends"
@@ -62,27 +62,27 @@ export default function CoffeeArtisanPage() {
               id: "1",
               name: "House Espresso",
               price: "$3.50",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131399376-ebzxouk7.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131924948-1xw2j6an.jpg",
               imageAlt: "Rich dark roast espresso shot"
             },
             {
               id: "2",
               name: "Silky Latte",
               price: "$4.75",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131400886-4rpdox5c.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131926475-azl8cxkt.jpg",
               imageAlt: "Creamy latte with latte art"
             },
             {
               id: "3",
               name: "Single Origin",
               price: "$4.25",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131402147-axlyyiv2.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131927951-jj1keyzk.jpg",
               imageAlt: "Premium single origin coffee beans"
             }
           ]}
         />
       </div>
-      
+
       <div id="about" data-section="about">
         <SplitAbout
           title="Our Coffee Story"
@@ -107,12 +107,12 @@ export default function CoffeeArtisanPage() {
               icon: Award
             }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131403312-7s79nf22.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131928964-brwvd3q5.jpg"
           imageAlt="Cozy coffee shop interior"
           imagePosition="right"
         />
       </div>
-      
+
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardFourteen
           title="What Our Customers Say"
@@ -127,7 +127,7 @@ export default function CoffeeArtisanPage() {
               name: "Sarah Martinez",
               handle: "@sarahcoffelover",
               testimonial: "The best espresso in town! The baristas really know their craft and the atmosphere is so welcoming.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131404549-xe9wpv7y.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131930378-4mnm787o.jpg",
               imageAlt: "Sarah Martinez"
             },
             {
@@ -135,7 +135,7 @@ export default function CoffeeArtisanPage() {
               name: "James Chen",
               handle: "@jamesmornings",
               testimonial: "I've tried coffee everywhere and this is consistently excellent. Their single origin beans are exceptional.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131405629-hrhkl6f1.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131931332-0jp32uyr.jpg",
               imageAlt: "James Chen"
             },
             {
@@ -143,7 +143,7 @@ export default function CoffeeArtisanPage() {
               name: "Emma Wilson",
               handle: "@emmaeats",
               testimonial: "Perfect spot for morning meetings. Great coffee, amazing pastries, and such a cozy vibe!",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131406671-1hmvxjg4.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131932274-lso7q1op.jpg",
               imageAlt: "Emma Wilson"
             },
             {
@@ -151,20 +151,20 @@ export default function CoffeeArtisanPage() {
               name: "Michael Rodriguez",
               handle: "@michaelcoffee",
               testimonial: "Supporting local has never tasted so good. These guys really care about quality and sustainability.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/professional-headshot-man-portrait-frien-1765131408935-8eb320f8.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131933559-zrl16g6k.jpg",
               imageAlt: "Michael Rodriguez"
             }
           ]}
         />
       </div>
-      
+
       <div id="contact" data-section="contact">
         <ContactSplit
           tag="Newsletter"
           title="Stay Updated"
           description="Subscribe to our newsletter for new menu items, special promotions, and exclusive coffee tips delivered to your inbox."
           useInvertedBackground="noInvert"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131397515-rjrd98ss.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765131923809-th5gx0f0.jpg"
           imageAlt="Coffee shop ambiance"
           mediaPosition="right"
           inputPlaceholder="Enter your email"
@@ -172,7 +172,7 @@ export default function CoffeeArtisanPage() {
           termsText="We respect your privacy. Unsubscribe anytime."
         />
       </div>
-      
+
       <div id="footer" data-section="footer">
         <FooterBaseCard
           logoText="Coffee Artisan"
